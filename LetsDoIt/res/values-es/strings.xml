@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Localizador de Basura para Limpieza Mundial</string>
+  <string name="list_empty">Cargando lista de puntos de basura</string>
+  <string name="list_text">Lista</string>
+  <string name="text_id">ID: </string>
+  <string name="text_no_id">No encontramos ID:</string>
+  <string name="menu_list">Lista</string>
+  <string name="menu_new">Añadir nuevo punto</string>
+  <!--new-->
+  <string name="add_new_pont">AÑADIR NUEVO PUNTO</string>
+  <!--end of new-->
+  <string name="menu_map">Mapa</string>
+  <string name="text_composition">Composición:</string>
+  <string name="text_desc">Descripción:</string>
+  <string name="text_no_desc">Descripción no disponible</string>
+  <string name="sOther">Otros</string>
+  <string name="sMetal">metal</string>
+  <string name="sLarge">grande</string>
+  <string name="sGlass">vidrio</string>
+  <string name="sPaper">papel</string>
+  <string name="sPmp">plástico</string>
+  <string name="sTires">neumáticos</string>
+  <string name="sNo">sin definir</string>
+  <string name="map_dialog_title">Mostrar detalles</string>
+  <string name="map_dialog_message">¿Quiere ver los detalles de este punto?</string>
+  <string name="map_dialog_yes">Si</string>
+  <string name="map_dialog_no">No</string>
+  <string name="text_metrics">km</string>
+  <string name="text_no_connection">¡Se necesita conexión a internet!</string>
+  <string name="login_title">Registro</string>
+  <string name="login_message">No esta registrado. Por favor registrese para realizar ciertas tareas</string>
+  <string name="login_user">Nombre de usuario:</string>
+  <string name="login_pass">Clave:</string>
+  <string name="login_yes">Registro</string>
+  <string name="login_no">Cancelar</string>
+  <string name="button_map">MAPA</string>
+  <string name="button_list">LISTA</string>
+  <string name="button_new_point">PUNTO NUEVO</string>
+  <string name="button_about">OPCIONES</string>
+  <string name="message_added">¡Punto de Basura añadido!</string>
+  <string name="message_not_login">Tiene que acceder para añadir un punto de basura </string>
+  <string name="message_not_added">El punto de basura NO se ha añadido por problemas con la conexión a internet</string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Cancelar</string>
+  <string name="message_wait">Por favor espere. Cargando...</string>
+  <string name="message_adding">Por favor espere. Enviando datos al servidor...</string>
+  <string name="text_BBOX">Defina el tamaño “bounding box”:</string>
+  <string name="text_max_results">Defina el número máximo de puntos de basura:</string>
+  <string name="text_login">Registro</string>
+  <string name="text_relogin">Registro con distinto usuario</string>
+  <string name="text_logoff">Salir</string>
+  <string name="text_logged">Registrado como:</string>
+  <string-array name="bbox_values">
+    <item>Área pequeña</item>
+    <item>Área mediana</item>
+    <item>Área grande</item>
+  </string-array>
+  <string name="prompt_maxres">Nº máximo de resultados</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (recomendado)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Idioma preferido: </string>
+  <string name="prompt_language">Elegir idioma</string>
+  <string-array name="language_values">
+    <item>Inglés</item>
+    <item>Estonios</item>
+    <item>Español</item>
+    <item>Francés</item>
+    <item>Alemán</item>
+    <item>Rusa</item>
+  </string-array>
+  <string name="choose_title">Localización punto de basura</string>
+  <string name="choose_msg">¿Que quiere hacer con el punto de basura? </string>
+  <string name="choose_set">Fijar este punto</string>
+  <string name="choose_leave">Dejar el punto antiguo</string>
+  <string name="choose_cancel">Cancelar</string>
+  <string name="about_bbox">NOTA: El tamaño de la “Bounding box” se utiliza en caso de mala conectividad, así que no verá diferencia, si tiene buena conexión a internet</string>
+  <string name="mode_advanced">AVANZADO</string>
+  <string name="toast_login">¡Se ha registrado correctamente!</string>
+  <string name="toast_login_fail">¡Ha fallado el registro!</string>
+  <string name="newpoint_exit_title">Salir del aviso</string>
+  <string name="newpoint_exit_msg">Si sale ahora, ¡todos los datos rellenados se perderán!\n¿Esta seguro quiere hacerlo?</string>
+  <string name="dialog_gps_title">GPS esta desactivado</string>
+  <string name="dialog_gps_message">Por favor active el GPS en los ajustes de su sistema pulsando Activar GPS. Pulse Volver cuando este hecho.</string>
+  <string name="dialog_gps_ok">Activar GPS</string>
+  <string name="dialog_gps_cancel">Mantener GPS desactivado</string>
+  <string name="add_details">Añadir detalles</string>
+  <string name="hide_details">Ocultar detalles</string>
+</resources>

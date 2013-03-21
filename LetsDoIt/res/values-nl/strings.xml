@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Wereld Reinigen Afval Mapper</string>
+  <string name="list_empty">Laden lijst van afval punten</string>
+  <string name="list_text">Lijst</string>
+  <string name="text_id">ID:</string>
+  <string name="text_no_id">Geen ID was gevonden!</string>
+  <string name="menu_list">Lijst</string>
+  <string name="menu_new">Nieuwe punt toevoegen</string>
+  <!--new-->
+  <string name="add_new_pont">NIEUWE PUNT TOEVOEGEN</string>
+  <!--end of new-->
+  <string name="menu_map">Map</string>
+  <string name="text_composition">Compositie:</string>
+  <string name="text_desc">Beschrijving:</string>
+  <string name="text_no_desc">Geen beschrijving beschikbaar</string>
+  <string name="sOther">ander</string>
+  <string name="sMetal">Metaal</string>
+  <string name="sLarge">Groot</string>
+  <string name="sGlass">Glass</string>
+  <string name="sPaper">Papier</string>
+  <string name="sPmp">Plastic</string>
+  <string name="sTires">Banden</string>
+  <string name="sNo">Geen titel</string>
+  <string name="map_dialog_title">Details tonen</string>
+  <string name="map_dialog_message">Wilt u de details zien van dit punt?</string>
+  <string name="map_dialog_yes">Ja</string>
+  <string name="map_dialog_no">Nee</string>
+  <string name="text_metrics">Km</string>
+  <string name="text_no_connection">Internet connectie is vereist!</string>
+  <string name="login_title">Inlog</string>
+  <string name="login_message">U bent niet aangemeld. Meld u aan om bepaalde taak uit te voeren.</string>
+  <string name="login_user">Gebruikersnaam:</string>
+  <string name="login_pass">Wachtwoord:</string>
+  <string name="login_yes">Inlog:</string>
+  <string name="login_no">Annuleren</string>
+  <string name="button_map">MAP</string>
+  <string name="button_list">LIJST</string>
+  <string name="button_new_point">NIEUWE PUNT</string>
+  <string name="button_about">OPTIES</string>
+  <string name="message_added">Afval Punt is toegevoegd!</string>
+  <string name="message_not_login">U moet aanmelden om een afval punt toe te voegen</string>
+  <string name="message_not_added">Afval punt was NIET wegens slechte internet verbinding toegevoegd</string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Annuleren</string>
+  <string name="message_wait">Een ogenblik geduld alstublieft. Laden ...</string>
+  <string name="message_adding">Een ogenblik geduld alstublieft. Verzenden van gegevens naar de server ...</string>
+  <string name="text_BBOX">Bepaal selectiekader grootte:</string>
+  <string name="text_max_results">Bepaal maximum aantal afval punten:</string>
+  <string name="text_login">Inlog</string>
+  <string name="text_relogin">Aanmelden met andere gebruiker</string>
+  <string name="text_logoff">Afmelden</string>
+  <string name="text_logged">Aangemeld als:</string>
+  <string name="prompt_bbox">selectiekader</string>
+  <string-array name="bbox_values">
+    <item>Klein gebied</item>
+    <item>Middelmaat gebied</item>
+    <item>groot gebied</item>
+  </string-array>
+  <string name="prompt_maxres">Maximale resultaten</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (Geadviseerd)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Gewenste taal:</string>
+  <string name="prompt_language">Selecteer taal</string>
+  <string-array name="language_values">
+    <item>Engels</item>
+    <item>Estlands</item>
+    <item>Spaans</item>
+    <item>Frans</item>
+    <item>Duits</item>
+    <item>Russisch</item>
+  </string-array>
+  <string name="choose_title">Afval Punt Locatie</string>
+  <string name="choose_msg">Wat wil je doen met afval punt locatie?</string>
+  <string name="choose_set">Stel dit punt</string>
+  <string name="choose_leave">Verlaat oude punt</string>
+  <string name="choose_cancel">Annuleren </string>
+  <string name="about_bbox">OPMERKING: Selectiekader maat van de doos wordt gebruikt in geval van slechte connectiviteit, zodat u geen verschil ziet, als je een goede internet verbinding hebt.</string>
+  <string name="mode_advanced">GEAVANCEERD</string>
+  <string name="toast_login">U bent succesvol aangemeld!</string>
+  <string name="toast_login_fail">Het is niet gelukt om aan te melden!</string>
+  <string name="newpoint_exit_title">Verlaat alarm</string>
+  <string name="newpoint_exit_msg">Als u nu verlaat, verliest u al uw gegevens! ⏎ Weet u zeker dat u dit wilt doen?</string>
+  <string name="dialog_gps_title">GPS is uitgeschakeld</string>
+  <string name="dialog_gps_message">Schakel GPS in in uw systeeminstellingen door te klikken op Activeer GPS. Druk op terug als je klaar bent.</string>
+  <string name="dialog_gps_ok">Activeer GPS</string>
+  <string name="dialog_gps_cancel">Houd GPS uitgeschakeld</string>
+  <string name="add_details">Voeg details toe</string>
+  <string name="hide_details">Verberg details</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/menu_background_unselected"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@+id/button"
+        android:text="@string/tab_actvities"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+    
+    <View 
+        android:id="@+id/sep1"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:background="@android:color/white"
+		android:layout_marginTop="5dp"/>
+    
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_below="@+id/button"
+        android:text="@string/nearby_wastepoints"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical" />
+ <!--    <TextView
+        android:id="@+id/menu2"
+        android:layout_below="@+id/button"
+        android:text="@string/friends"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical" /> -->
+    <TextView
+        android:id="@+id/menu3"
+        android:layout_below="@+id/button"
+        android:text="@string/map_view"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical" />
+		
+      <TextView
+        android:id="@+id/titl2"
+        android:layout_below="@+id/button"
+        android:text="@string/tab_my_account"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+    
+    <View 
+        android:id="@+id/sep2"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:background="@android:color/white"
+		android:layout_marginTop="5dp"/>
+    
+    <TextView
+        android:id="@+id/menu4"
+        android:layout_below="@+id/button"
+        android:text="@string/my_profile"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical" />
+    <TextView
+        android:id="@+id/menu5"
+        android:layout_below="@+id/button"
+        android:text="@string/settings"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical" />
+</LinearLayout>

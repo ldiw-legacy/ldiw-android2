@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+	<item
+        android:id="@+id/add_wastepoint"
+        android:title=""
+        android:icon="@drawable/button_add_point"
+        android:showAsAction="ifRoom">
+        
+		<menu>
+	    	<item android:id="@+id/item_take_picture" android:title="@string/take_photo"></item>
+	    	<item android:id="@+id/item_from_gallery" android:title="@string/choose_from_gallery"></item>
+	    	<item android:id="@+id/item_skip_picture" android:title="@string/skip_photo"></item>
+	    </menu>
+	</item>
+
+    
+    <item
+        android:id="@+id/offline_item"
+        android:title=""
+        android:showAsAction="ifRoom"
+		android:actionProviderClass="com.letsdoitworld.wastemapper.provider.UploadOfflinePoints"
+    />
+ 
+</menu>

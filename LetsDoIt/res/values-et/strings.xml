@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Maailmakaardistaja</string>
+  <string name="list_empty">Laen punktide loendit</string>
+  <string name="list_text">Loend</string>
+  <string name="text_id">ID: </string>
+  <string name="text_no_id">Punkti ei leitud</string>
+  <string name="menu_list">Loend</string>
+  <string name="menu_new">Lisa uus punkt</string>
+  <!--new-->
+  <string name="add_new_pont">LISA UUS PUNKT</string>
+  <!--end of new-->
+  <string name="menu_map">Kaart</string>
+  <string name="text_composition">Sisu:</string>
+  <string name="text_desc">Kirjeldus:</string>
+  <string name="text_no_desc">Kirjeldus pole saadaval </string>
+  <string name="sOther">muu</string>
+  <string name="sMetal">metall</string>
+  <string name="sLarge">suur</string>
+  <string name="sGlass">klaas</string>
+  <string name="sPaper">paber</string>
+  <string name="sPmp">plastik</string>
+  <string name="sTires">rehvid</string>
+  <string name="sNo">kirjelduseta</string>
+  <string name="map_dialog_title">Näita detaile</string>
+  <string name="map_dialog_message">Kas tahate näha selle punkti detaile?</string>
+  <string name="map_dialog_yes">Jah</string>
+  <string name="map_dialog_no">Ei</string>
+  <string name="text_metrics">km</string>
+  <string name="text_no_connection">Internetiühendus on vajalik!</string>
+  <string name="login_title">Logi sisse</string>
+  <string name="login_message">Te pole sisse logitud. Palun logige sisse, et lõpetada see käsklus</string>
+  <string name="login_user">Kasutajanimi:</string>
+  <string name="login_pass">Salasõna:</string>
+  <string name="login_yes">Logige sisse</string>
+  <string name="login_no">Katkesta</string>
+  <string name="button_map">KAART</string>
+  <string name="button_list">LOEND</string>
+  <string name="button_new_point">UUS PUNKT</string>
+  <string name="button_about">VALIKUD</string>
+  <string name="message_added">Jäätmepunkt on lisatud!</string>
+  <string name="message_not_login">Jäätmepunkti lisamiseks peate sisse logima </string>
+  <string name="message_not_added">Jäätmepunkti EI lisatud halva internetiühenduse tõttu</string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Katkesta</string>
+  <string name="message_wait">Palun oodake. Laetakse...</string>
+  <string name="message_adding">Palun oodake. Andmete serverisse saatmine...</string>
+  <string name="text_BBOX">Määrake ala suurus:</string>
+  <string name="text_max_results">Määrake jäätmepunktide maksimaalne arv:</string>
+  <string name="text_login">Logige sisse</string>
+  <string name="text_relogin">Logi sisse teise kasutajana</string>
+  <string name="text_logoff">Logi välja</string>
+  <string name="text_logged">Sisse logitud kui:</string>
+  <string name="prompt_bbox">Kaetav ala</string>
+  <string-array name="bbox_values">
+    <item>Väike ala</item>
+    <item>Keskmine ala</item>
+    <item>Suur ala</item>
+  </string-array>
+  <string name="prompt_maxres">Maksimaalne tulemuste arv</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (soovitatud)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Eelistatud keel:</string>
+  <string name="prompt_language">Valige keel</string>
+  <string-array name="language_values">
+    <item>Inglise</item>
+    <item>Eesti</item>
+    <item>Hispaania</item>
+    <item>Prantsuse</item>
+    <item>Saksa</item>
+    <item>Vene</item>
+  </string-array>
+  <string name="choose_title">Jäätmepunkti asukoht</string>
+  <string name="choose_msg">Mida soovite jäätmepunkti asukohaga teha?</string>
+  <string name="choose_set">Määra see punkt</string>
+  <string name="choose_leave">Lahku vanast punktist</string>
+  <string name="choose_cancel">Katkesta</string>
+  <string name="about_bbox">MÄRGE: Piirdekasti suurust kasutatakse halva ühenduvuse korral, hea internetiühendusega pole erinevust näha</string>
+  <string name="mode_advanced">DETAILID</string>
+  <string name="toast_login">Olete edukalt sisse logitud!</string>
+  <string name="toast_login_fail">Sisselogimine ebaõnnestus!</string>
+  <string name="newpoint_exit_title">Väljumise hoiatus</string>
+  <string name="newpoint_exit_msg">Praegu lahkudes kaovad kõik sisestatud andmed!\nOlete kindel, et tahate lahkuda?</string>
+  <string name="dialog_gps_title">GPS on väljas</string>
+  <string name="dialog_gps_message">Palun luba GPS oma süsteemiseadetes, klikkides Luba GPS. Kui seadistatud, mine eelmisele lehele.</string>
+  <string name="dialog_gps_ok">Lubage GPS</string>
+  <string name="dialog_gps_cancel">Ärge lubage GPS-i</string>
+  <string name="add_details">Lisa detaile</string>
+  <string name="hide_details">Peida detailid</string>
+  <string name="message_wait_for_location">GPS asukohta veel pole, palun proovi hetke pärast uuesti</string>
+</resources>

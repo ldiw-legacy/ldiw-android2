@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Программа Картографирования Акции Сделаем</string>
+  <string name="list_empty">Загрузка координат мусора</string>
+  <string name="list_text">Список</string>
+  <string name="text_id">ИД: </string>
+  <string name="text_no_id">Запись с указанным ИД не обнаружена!</string>
+  <string name="menu_list">Список</string>
+  <string name="menu_new">Добавить новую координату</string>
+  <!--new-->
+  <!--end of new-->
+  <string name="menu_map">Карта</string>
+  <string name="text_composition">Состав:</string>
+  <string name="text_desc">Описание:</string>
+  <string name="text_no_desc">Описание отсутствует</string>
+  <string name="sOther">другое</string>
+  <string name="sMetal">металл</string>
+  <string name="sLarge">много</string>
+  <string name="sGlass">стекло</string>
+  <string name="sPaper">бумага</string>
+  <string name="sPmp">пластик</string>
+  <string name="sTires">шины</string>
+  <string name="sNo">без наименования</string>
+  <string name="map_dialog_title">Отобразить детали</string>
+  <string name="map_dialog_message">Отобразить доп. информацию точки сбора?</string>
+  <string name="map_dialog_yes">Да</string>
+  <string name="map_dialog_no">Нет</string>
+  <string name="text_metrics">км</string>
+  <string name="text_no_connection">Интернет соединение необходимо для дальнейших действий!</string>
+  <string name="login_title">Войти</string>
+  <string name="login_message">Для того, чтобы иметь возможность к дополнительным функциям, вам необходимо войти в систему. </string>
+  <string name="login_user">Имя пользователя:</string>
+  <string name="login_pass">Пароль:</string>
+  <string name="login_yes">Войти</string>
+  <string name="login_no">Отменить</string>
+  <string name="button_map">КАРТА</string>
+  <string name="button_list">СПИСОК</string>
+  <string name="button_new_point">НОВАЯ КООРДИНАТА</string>
+  <string name="button_about">ОПЦИИ</string>
+  <string name="message_added">Точка сбора была успешно добавлена!</string>
+  <string name="message_not_login">Для добавления точки сбора, Вам необходимо войти в систему,\n\t</string>
+  <string name="message_not_added">Из-за нестабильного интернет соединения, неудалось зарегистрировать точку сбора на сервере.</string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Отменить</string>
+  <string name="message_wait">Пожалуйста подождите, загрузка...</string>
+  <string name="message_adding">Пожалуйста подождите, данные загружаются на сервер...</string>
+  <string name="text_BBOX">Задать занимаемую площадь:</string>
+  <string name="text_max_results">Определоть максимальное кол-во. точек сбора мусора:</string>
+  <string name="text_login">Войти</string>
+  <string name="text_relogin">Вход под другим именем</string>
+  <string name="text_logoff">Выход</string>
+  <string name="text_logged">В системе как:</string>
+  <string name="prompt_bbox">Размеры</string>
+  <string-array name="bbox_values">
+    <item>Занимает небольшую площадь</item>
+    <item>Занимает среднюю площадь</item>
+    <item>Занимает большую площадь</item>
+  </string-array>
+  <string name="prompt_maxres">Максимальное кол-во. данных</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (рекомендовано)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Язык интерфейса: </string>
+  <string name="prompt_language">Выбор языка</string>
+  <string-array name="language_values">
+    <item>Английский</item>
+    <item>Литовский</item>
+  </string-array>
+  <string name="choose_title">Координата Точки Мусора</string>
+  <string name="choose_msg">Какие действия желаете осуществить с точками сбора?  </string>
+  <string name="choose_set">Определить координату</string>
+  <string name="choose_leave">Закрыть текущую координату, данные не будут сохранены.</string>
+  <string name="choose_cancel">Отменить</string>
+  <string name="about_bbox">Заметка: эта настройка используется в случае плохого интернет соединения, в противном случае она не повлияет на поведение программного обеспечения.</string>
+  <string name="mode_advanced">ДОПОЛНИТЕЛЬНО</string>
+  <string name="toast_login">Вход в систему завершён!</string>
+  <string name="toast_login_fail">Не удалось войти в систему!</string>
+  <string name="newpoint_exit_title">Предупреждение о выходе из системы</string>
+  <string name="newpoint_exit_msg">Если вы сейчас закроете форму, то она не будет сохранена и данные будут потеряны.\nВы уверены, что хотите закрыть форму?</string>
+  <string name="dialog_gps_title">GPS отключён</string>
+  <string name="dialog_gps_message">Пожалуйста, включите GPS, используя настройки телефона. Вернитесь в приложение, когда GPS включён.</string>
+  <string name="dialog_gps_ok">Включить GPS</string>
+  <string name="dialog_gps_cancel">Оставить GPS выключеным</string>
+  <string name="add_details">Дополнить</string>
+  <string name="hide_details">Скрыть дополнения</string>
+</resources>

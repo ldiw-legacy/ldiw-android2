@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><color name="cHead">#77B34A</color>
+<color name="cText">#000000</color>
+<dimen name="dTextSize">18dip</dimen>
+<dimen name="dMenuTextSize">20dip</dimen>
+<dimen name="dCompTitleSize">14dip</dimen>
+<color name="cBackground">#D8D8D8</color>
+<color name="cMenuActivity">#494949</color>
+<color name="background_unpressed">#fff</color>
+<color name="background_selected">#ccc</color>
+<integer-array name="array_bbox"><item>1</item>
+<item>2</item>
+<item>3</item>
+</integer-array>
+<integer-array name="array_maxres"><item>5</item>
+<item>10</item>
+<item>15</item>
+<item>20</item>
+</integer-array>
+<string-array name="array_language"><item>en</item>
+<item>lt</item>
+</string-array>
+</resources>

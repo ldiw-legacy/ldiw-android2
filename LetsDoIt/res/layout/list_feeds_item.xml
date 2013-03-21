@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <RelativeLayout 
+        android:id="@+id/item_rel_container"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_corner_dark">
+        
+         <ImageView
+            android:id="@+id/item_img_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pointmarker_feed"
+            android:padding="5dp"/>
+        
+        <ImageView
+            android:id="@+id/item_img_type"
+            android:layout_width="60dp"
+            android:layout_toRightOf="@id/item_img_profile"
+            android:layout_height="60dp"
+            android:src="@drawable/pointmarker_feed"
+            android:visibility="gone"
+            android:padding="5dp"/>
+        
+        <TextView 
+            android:id="@+id/item_text_feed_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_img_type"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@id/item_img_profile"
+            android:layout_alignBottom="@id/item_img_profile"
+            android:maxLines="3"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:text="Ce message est dasn le xml, veuillez l'enlever rapidement, il ne sert que de test a la creation de la vue"/>
+        
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+			android:layout_below="@id/item_img_profile"
+			android:orientation="horizontal"
+			> 
+            
+             <TextView
+	            android:id="@+id/item_feed_time_and_distance"
+	            android:layout_width="0dp"
+	            android:layout_weight="13"
+	            android:layout_height="fill_parent"
+	            android:maxLines="1"
+	            android:textSize="12sp"
+	            android:textColor="#A7AAAC"
+	            android:layout_marginLeft="15dp"
+	            android:text="38 min ago, 46 km from here (XML)"
+	            android:gravity="center_vertical"/>
+            
+             <View 
+                 android:layout_width="1dp"
+                 android:layout_height="fill_parent"
+             	 android:background="#A7AAAC"
+             	 android:layout_marginTop="4dp"
+             	 android:layout_marginBottom="4dp"/>
+			
+			<ImageView
+            	android:id="@+id/item_img_comment"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+	            android:layout_height="30dp"
+	            android:src="@drawable/button_comment"
+	            android:scaleType="centerInside"
+	            android:padding="5dp"/>
+              
+			
+			 <View 
+                 android:layout_width="1dp"
+                 android:layout_height="fill_parent"
+             	 android:background="#A7AAAC"
+             	 android:layout_marginTop="4dp"
+             	 android:layout_marginBottom="4dp"/>
+			 
+			<ImageView
+	            android:id="@+id/item_img_like"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+	            android:layout_height="30dp"
+	            android:src="@drawable/button_fb_like"
+	            android:padding="5dp"
+	            android:scaleType="centerInside"/>
+                
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/item_linear_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_rel_container"
+        android:orientation="vertical">
+        
+        
+        
+    </LinearLayout>
+   	
+</RelativeLayout>

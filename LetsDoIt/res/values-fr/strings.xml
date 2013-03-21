@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Carte mondiale de déchet </string>
+  <string name="list_empty">Chargement de la liste des points de déchet </string>
+  <string name="list_text">Liste</string>
+  <string name="text_id">ID: </string>
+  <string name="text_no_id">Aucune ID na trouvée</string>
+  <string name="menu_list">Liste</string>
+  <string name="menu_new">Un nouveau point</string>
+  <!--new-->
+  <string name="add_new_pont">AJOUTE UN NOUVEAU POINT</string>
+  <!--end of new-->
+  <string name="menu_map">Carte</string>
+  <string name="text_composition">Composition:</string>
+  <string name="text_desc">Description:</string>
+  <string name="text_no_desc">Aucune description disponible</string>
+  <string name="sOther">autres</string>
+  <string name="sMetal">en métal</string>
+  <string name="sLarge">large</string>
+  <string name="sGlass">en verre</string>
+  <string name="sPaper">en papier</string>
+  <string name="sPmp">en plastique</string>
+  <string name="sTires">pneus</string>
+  <string name="sNo">pas de titre</string>
+  <string name="map_dialog_title">Montre les détails</string>
+  <string name="map_dialog_message">Voulez-vous voir les détails de ce point?</string>
+  <string name="map_dialog_yes">Oui</string>
+  <string name="map_dialog_no">Non</string>
+  <string name="text_metrics">km</string>
+  <string name="text_no_connection"> Connexion à Internet est néccesaire!</string>
+  <string name="login_title">Connectez-vous</string>
+  <string name="login_message">Vous n\'êtes pas vous connecté. S\'il vous plaît connectez-vous pour finir cette tâche</string>
+  <string name="login_user">Nom d\'utilisateur:</string>
+  <string name="login_pass">Mot de passe:</string>
+  <string name="login_yes">Connectez-vous</string>
+  <string name="login_no">Annulation</string>
+  <string name="button_map">CARTE</string>
+  <string name="button_list">LISTE</string>
+  <string name="button_new_point">NOUVEAU POINT</string>
+  <string name="button_about">OPTIONS</string>
+  <string name="message_added">Point de déchet est ajouté!</string>
+  <string name="message_not_login">Vous devez vous connecter afin de ajouter le point de déchet </string>
+  <string name="message_not_added">Le point de déchet N\'A PAS été ajouté à cause de mauvaise connexion à Internet </string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Annulation</string>
+  <string name="message_wait">Attendez, s\'il vous plaît. Chargement en cours...</string>
+  <string name="message_adding">Attendez, s\'il vous plaît. L\'envoie des données au serveur... </string>
+  <string name="text_BBOX">Définissez la taille de la boîte englobante:</string>
+  <string name="text_max_results">Définissez le nombre maximum de points de déchet:</string>
+  <string name="text_login">Connectez-vous</string>
+  <string name="text_relogin">Se connecter avec un autre nom d\'utilisateur</string>
+  <string name="text_logoff">Se déconnecte</string>
+  <string name="text_logged">Se connecté comme:</string>
+  <string name="prompt_bbox">Boîte englobante </string>
+  <string-array name="bbox_values">
+    <item>Petite région</item>
+    <item>Moyenne région</item>
+    <item>Grande région</item>
+  </string-array>
+  <string name="prompt_maxres">Maximum de résultats</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (recommendé)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Langue préférée:</string>
+  <string name="prompt_language">Choisissez votre langue</string>
+  <string-array name="language_values">
+    <item>Anglaise</item>
+    <item>Estonien</item>
+    <item>Espagnole</item>
+    <item>Francaise</item>
+    <item>Allemande</item>
+    <item>Russes</item>
+  </string-array>
+  <string name="choose_title">Emplacement du Point de Déchet</string>
+  <string name="choose_msg">Qu\'est-ce que vous voulez faire avec l\'emplacement du point de déchet?</string>
+  <string name="choose_set">Fixez ce point</string>
+  <string name="choose_leave">Quittez vieux point</string>
+  <string name="choose_cancel">Annulation</string>
+  <string name="about_bbox">REMARQUE: Taille de boîte englobante est ulitisée seulement en cas de mauvaise connexion, en cas de bonne connexion à Internet il n\'y a pas de différence</string>
+  <string name="mode_advanced">AVANCÉ</string>
+  <string name="toast_login">Vous avez réussi de vous connecter!</string>
+  <string name="toast_login_fail">Vous avez échoué à vous connecter!</string>
+  <string name="newpoint_exit_title">Alerte de sortie</string>
+  <string name="newpoint_exit_msg">Si vous sortez maintenant, toutes les données seront perdues!\nVous êtes sûr que vous voulez le faire? </string>
+  <string name="dialog_gps_title">GPS est désactivé</string>
+  <string name="dialog_gps_message">S\'il vous plaît permettez GPS dans les paramètres de votre système. Si vous l\'avez fait, revenez à la page dérinère</string>
+  <string name="dialog_gps_ok">Permettez GPS</string>
+  <string name="dialog_gps_cancel">Gardez GPS désactivé</string>
+  <string name="add_details">Ajoute des détails</string>
+  <string name="hide_details">Cache des détails</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">World Cleanup Waste Mapper</string>
+  <string name="list_empty">Loading list of waste points</string>
+  <string name="list_text">List</string>
+  <string name="text_id">ID: </string>
+  <string name="text_no_id">No id was found!</string>
+  <string name="menu_list">List</string>
+  <string name="menu_new">Add new point</string>
+  
+  <!-- new -->
+  <string name="add_new_pont">ADD NEW POINT</string>
+  <!-- end of new -->
+  
+  <string name="menu_map">Map</string>
+  <string name="text_composition">Composition:</string>
+  <string name="text_desc">Description:</string>
+  <string name="text_no_desc">No description available</string>
+  <string name="sOther">other</string>
+  <string name="sMetal">metal</string>
+  
+  <string name="sTires">tires</string>
+  <string name="sNo">no title</string>
+  <string name="map_dialog_title">Show details</string>
+  <string name="map_dialog_message">Do you want to see this point details?</string>
+  <string name="map_dialog_yes">Yes</string>
+  <string name="map_dialog_no">No</string>
+  <string name="text_metrics">km</string>
+  <string name="text_no_connection">Internet connection is required!</string>
+  <string name="login_title">Login</string>
+  <string name="login_message">You are not logged in. Please login in order to do
+    certain task</string>
+  <string name="login_user">Username:</string>
+  <string name="login_pass">Password:</string>
+  <string name="login_yes">Login</string>
+  <string name="login_no">Cancel</string>
+  <string name="button_map">MAP</string>
+  <string name="button_list">LIST</string>
+  <string name="button_new_point">NEW POINT</string>
+  <string name="button_about">OPTIONS</string>
+  <string name="message_added">Waste Point was added!</string>
+  <string name="message_not_login">You have to login in order to add waste point
+  </string>
+  <string name="message_not_added">Waste Point was NOT added due to bad internet
+    connection</string>
+  <string name="menu_ok">OK</string>
+  <string name="menu_cancel">Cancel</string>
+  <string name="message_wait">Please wait. Loading...</string>
+  <string name="message_adding">Please wait. Sending data to server...</string>
+  <string name="text_BBOX">Define bounding box size:</string>
+  <string name="text_max_results">Define maximum number of waste points:</string>
+  <string name="text_login">Login</string>
+  <string name="text_relogin">Login with different user</string>
+  <string name="text_logoff">Log off</string>
+  <string name="text_logged">Logged as:</string>
+  <string name="prompt_bbox">Bounding box</string>
+  <string-array name="bbox_values">
+    <item>Small area</item>
+    <item>Medium area</item>
+    <item>Large area</item>
+  </string-array>
+  <string name="prompt_maxres">Maximum results</string>
+  <string-array name="maxres_values">
+    <item>5</item>
+    <item>10 (recommended)</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <string name="text_language">Preferred language: </string>
+  <string name="prompt_language">Select language</string>
+  <string-array name="language_values">
+    <item>English</item>
+    <item>Lithuanian</item>
+  </string-array>
+  <string name="choose_title">Waste Point Location</string>
+  <string name="choose_msg">What do you want to do with waste point location?
+  </string>
+  <string name="choose_set">Set this point</string>
+  <string name="choose_leave">Leave old point</string>
+  <string name="choose_cancel">Cancel</string>
+  <string name="about_bbox">NOTE: Bounding box size is used in case of bad
+    connectivity, so you won\'t see difference, if you have good
+    internet connection</string>
+  <string name="mode_advanced">ADVANCED</string>
+  <string name="toast_login">You have successfully logged in!</string>
+  <string name="toast_login_fail">You have failed to log in!</string>
+  <string name="newpoint_exit_title">Exit alert</string>
+  <string name="newpoint_exit_msg">If you exit now, all your filled data will be
+    lost!\nAre you sure you want to do this?</string>
+
+  <string name="dialog_gps_title">GPS is disabled</string>
+  <string name="dialog_gps_message">Please enable GPS in your system settings by
+    clicking Enable GPS. Press back when you are done.</string>
+  <string name="dialog_gps_ok">Enable GPS</string>
+  <string name="dialog_gps_cancel">Keep GPS disabled</string>
+  <string name="add_details">Add details</string>
+  <string name="hide_details">Hide details</string>
+  <string name="message_wait_for_location">No GPS location yet, please try again in few seconds.</string>
+  
+  <string name="app_id">116739251687100</string>
+  
+  <!-- TO ADD/MODIFY TO TRANSLATE -->
+  
+  <string name="login_facebook">Facebook login</string>
+  <string name="register_account">Register new account</string>  
+  
+  <string name="sLarge">XXL</string>
+  <string name="sGlass">GLASS</string>
+  <string name="sPaper">PAPER</string>
+  <string name="sPmp">PLASTIC</string>
+  
+  <string name="tab_actvities">ACTIVITY</string>
+  <string name="tab_map">Map</string>
+  <string name="tab_my_account">ACCOUNT</string>
+  
+  <string name="nearby">Nearby Feed</string>
+  <string name="nearby_wastepoints">Nearby waste points</string>
+  <string name="friends">Friends Feed</string>
+  <string name="map_view">Map View</string>
+  <string name="my_profile">My Profile</string>
+  <string name="settings">Settings</string>
+  <string name="enter_in_meter">Enter in meters</string>
+  <string name="enter_value_or_pick_below">Enter value in liters or pick one below</string>
+  <string name="enter_the_amount">Enter the amount</string>
+  <string name="enter_your_comment">Enter your comment</string>
+  
+  <string name="ERROR_GENERIC">Server error, please try again later</string>
+  <string name="ERROR_EMPTY_LOGIN_PASSWORD">Username or password empty</string>
+  <string name="take_photo">Take Photo</string>
+  <string name="choose_from_gallery">Choose From Library</string>
+  <string name="skip_photo">Skip Photo</string>
+  
+  <string name="Points">POINTS</string>
+  <string name="Waste_spot">WASTE SPOT</string>
+  
+  <string name="clean">Clean</string>
+  <string name="confirm">Confirm</string>
+  <string name="report">Report</string>
+  
+  <string name="success">Succes!</string>
+  <string name="failed">Failed!</string>
+  <string name="success_waste_point_added">New waste point added.</string>
+  <string name="failed_waste_point_added">The waste point has not been added. It will be automatically aded when connexion is available, or you can try manually via the Menu item.</string>
+  
+  <string name="continue_uc">CONTINUE</string>
+  
+  <string name="hint_username">Myusername@...</string>
+  <string name="hint_password">password</string>
+  
+  <string name="picture">Picture</string>
+
+  <string name="pref_account">Account</string>
+  <string name="pref_tracking">Allow tracking</string>
+  <string name="pref_detailed_map">Detailed map</string>
+  <string name="pref_facebook_connect">Facebook connect</string>
+  <string name="pref_show_activities">Show activities</string>
+  <string name="pref_my_activities">My activity</string>
+  <string name="pref_friends">Friends</string>
+  <string name="pref_region">Region</string>
+  <string name="pref_global">Global</string>
+    
+  <string name="badges">BADGES</string>
+
+  <string name="searching_location">Searching for your current location...</string>
+  <string name="error_value_too_big">The value name is too big. It should be smaller than </string>
+  <string name="error_value_too_small">The value name is too small. It should be bigger than </string>
+</resources>

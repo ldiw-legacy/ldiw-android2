@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_dark"
+    >
+
+	<ScrollView
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+	    	<ImageView
+	    	    android:id="@+id/image_profile_picture"
+	    	    android:layout_width="100dp"
+	    	    android:layout_height="100dp"
+	    	    android:background="@drawable/round_corner_grey_test"
+	    	    android:layout_marginTop="20dp"
+	    	    android:layout_centerHorizontal="true"
+	    	    android:src="@drawable/no_photo"
+	    	    android:scaleType="fitXY"/>
+	    	 
+	    	<ImageView
+	    	    android:id="@+id/image_profile_picture"
+	    	    android:layout_width="100dp"
+	    	    android:layout_height="100dp"
+	    	    android:layout_marginTop="20dp"
+	    	    android:layout_centerHorizontal="true"
+	    	    android:src="@drawable/picture_frame"
+	    	    android:scaleType="fitXY"/>
+		    
+		    <TextView
+		        android:id="@+id/name_text"
+		        android:layout_width="fill_parent"
+	    	    android:layout_height="wrap_content"
+		        android:textSize="17sp"
+		        android:textStyle="bold"
+		        android:textColor="@android:color/white"
+		        android:gravity="center_horizontal"
+		        android:layout_below="@id/image_profile_picture"
+		        android:layout_marginTop="10dp"
+		        android:text="Romain Dereumaux"/>
+		    
+		    <TextView
+		        android:id="@+id/adress_text"
+		        android:layout_width="fill_parent"
+	    	    android:layout_height="wrap_content"
+		        android:textSize="16sp"
+		        android:textColor="#CCC"
+		        android:gravity="center_horizontal"
+		        android:layout_below="@id/name_text"
+		        android:text="Tartu, Estonie"/>
+		    
+		    <LinearLayout
+		        android:id="@+id/linear1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="center_horizontal"
+		        android:layout_below="@id/adress_text"
+		        android:layout_marginTop="20dp">
+		        
+		      	<RelativeLayout
+		            android:id="@+id/rel1"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		        	android:layout_weight="1"
+		        	android:gravity="center_horizontal">
+
+					<TextView
+				        android:id="@+id/number_points_text"
+				        android:layout_width="80dp"
+			    	    android:layout_height="80dp"
+				        android:textSize="25sp"
+				        android:textColor="@android:color/white"
+				        android:layout_centerHorizontal="true"
+				        android:gravity="center"
+				        android:background="@drawable/round_grey_dark" 
+				        android:text="17"/>
+					
+					<TextView
+				        android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+				        android:textSize="13sp"
+				        android:textColor="#CCC"
+				        android:layout_marginTop="3dp"
+				        android:gravity="center_horizontal"
+				        android:layout_below="@id/number_points_text"
+				        android:text="@string/Points"/>
+				</RelativeLayout>
+		        	
+		        
+		        <RelativeLayout
+		            android:id="@+id/rel1"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		        	android:layout_weight="1"
+		        	android:gravity="center_horizontal">
+			       
+		            <Button
+				        android:id="@+id/badge_picture"
+				        android:layout_width="80dp"
+			    	    android:layout_height="80dp"
+				        android:textSize="25sp"
+				        android:textColor="@android:color/white"
+				        android:gravity="center" 
+				        android:layout_centerHorizontal="true"
+				        android:background="@drawable/button_badges"/> 
+				        
+			        <TextView
+			            android:id="@+id/badges_number"
+				        android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+				        android:textSize="13sp"
+				        android:textColor="#CCC"
+				        android:layout_marginTop="3dp"
+				        android:gravity="center_horizontal"
+				        android:layout_below="@id/badge_picture"
+				        android:text="x BADGES"/>
+				</RelativeLayout>
+		    </LinearLayout>
+		    
+		    <View 
+		        android:id="@+id/separator"
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"
+		        android:background="#CCC"
+				android:layout_below="@id/linear1"
+				android:layout_marginTop="15dp"
+				/>
+		    
+		</RelativeLayout>    
+	</ScrollView>     
+</RelativeLayout>     
